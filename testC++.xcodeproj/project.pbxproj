@@ -13,7 +13,7 @@
 		33C2C5C129554ECC0058BA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C2C5BF29554ECC0058BA1A /* Main.storyboard */; };
 		33C2C5C329554ECD0058BA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C2C5C229554ECD0058BA1A /* Assets.xcassets */; };
 		33C2C5C629554ECD0058BA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C2C5C429554ECD0058BA1A /* LaunchScreen.storyboard */; };
-		33C2C5C929554ECD0058BA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C2C5C829554ECD0058BA1A /* main.m */; };
+		33C2C5C929554ECD0058BA1A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33C2C5C829554ECD0058BA1A /* main.mm */; };
 		33C2C5DA295556EC0058BA1A /* Operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C2C5D8295556EC0058BA1A /* Operator.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		33C2C5C229554ECD0058BA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C2C5C529554ECD0058BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C2C5C729554ECD0058BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C2C5C829554ECD0058BA1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C2C5C829554ECD0058BA1A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		33C2C5D8295556EC0058BA1A /* Operator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Operator.cpp; sourceTree = "<group>"; };
 		33C2C5D9295556EC0058BA1A /* Operator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Operator.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +76,7 @@
 				33C2C5C229554ECD0058BA1A /* Assets.xcassets */,
 				33C2C5C429554ECD0058BA1A /* LaunchScreen.storyboard */,
 				33C2C5C729554ECD0058BA1A /* Info.plist */,
-				33C2C5C829554ECD0058BA1A /* main.m */,
+				33C2C5C829554ECD0058BA1A /* main.mm */,
 			);
 			path = "testC++";
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			files = (
 				33C2C5BE29554ECC0058BA1A /* ViewController.mm in Sources */,
 				33C2C5B829554ECC0058BA1A /* AppDelegate.m in Sources */,
-				33C2C5C929554ECD0058BA1A /* main.m in Sources */,
+				33C2C5C929554ECD0058BA1A /* main.mm in Sources */,
 				33C2C5DA295556EC0058BA1A /* Operator.cpp in Sources */,
 				33C2C5BB29554ECC0058BA1A /* SceneDelegate.m in Sources */,
 			);
